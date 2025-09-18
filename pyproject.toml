@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "my-first-clean-project"
+version = "0.1.0"
+description = ""
+authors = ["mohammad-mahdi <mohammadmahdi13831388@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+persiantools = "*"
+
+[tool.poetry.group.dev.dependencies]
+isort = "*"
+black = "*"
+flake8 = "*"
+autoflake = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
