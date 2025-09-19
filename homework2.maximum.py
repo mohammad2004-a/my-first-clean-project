@@ -3,7 +3,7 @@ def main():
     while True:
         a  = int(input("enter number : "))
         number.append(a)
-        if len(number) > 10 :
+        if len(number) > 12 :
             print("cuntniue ?")
             b = input()
             if b == "n":
