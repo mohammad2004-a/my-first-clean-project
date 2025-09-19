@@ -8,7 +8,7 @@ def main():
             b = input()
             if b == "n":
                 break
-    print(f"maximum is : {maximum(number)}") 
+    print(f"MAXIMUM is : {maximum(number)}") 
       
 def maximum(list):
     maximum = list[0]
