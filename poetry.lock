@@ -174,18 +174,18 @@ files = [
 
 [[package]]
 name = "persiantools"
-version = "5.3.0"
+version = "5.4.0"
 description = "Jalali date and datetime with other tools"
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "persiantools-5.3.0-py3-none-any.whl", hash = "sha256:9d682c2bd5c280e3933367b02965d37d39876faad42b6ada5ea2596197afd871"},
-    {file = "persiantools-5.3.0.tar.gz", hash = "sha256:99a8fbd421ec6e403298567ba66e3ada4a05b0d23ab1e3b281f1ce46db2d528d"},
+    {file = "persiantools-5.4.0-py3-none-any.whl", hash = "sha256:db84b216aff57d723a321da61e0eaa202310e4a0d064d27ffb00e9d56a65b028"},
+    {file = "persiantools-5.4.0.tar.gz", hash = "sha256:06de92e4410afb75d8e71d59834ff807f63985fefee7465c8872721b00edd006"},
 ]
 
 [package.dependencies]
-pytz = "*"
+tzdata = {version = "*", markers = "platform_system == \"Windows\""}
 
 [[package]]
 name = "platformdirs"
@@ -226,18 +226,6 @@ groups = ["dev"]
 files = [
     {file = "pyflakes-3.4.0-py2.py3-none-any.whl", hash = "sha256:f742a7dbd0d9cb9ea41e9a24a918996e8170c799fa528688d40dd582c8265f4f"},
     {file = "pyflakes-3.4.0.tar.gz", hash = "sha256:b24f96fafb7d2ab0ec5075b7350b3d2d2218eab42003821c06344973d3ea2f58"},
-]
-
-[[package]]
-name = "pytz"
-version = "2025.2"
-description = "World timezone definitions, modern and historical"
-optional = false
-python-versions = "*"
-groups = ["main"]
-files = [
-    {file = "pytz-2025.2-py2.py3-none-any.whl", hash = "sha256:5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00"},
-    {file = "pytz-2025.2.tar.gz", hash = "sha256:360b9e3dbb49a209c21ad61809c7fb453643e048b38924c765813546746e81c3"},
 ]
 
 [[package]]
@@ -294,6 +282,19 @@ markers = "python_version == \"3.10\""
 files = [
     {file = "typing_extensions-4.15.0-py3-none-any.whl", hash = "sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548"},
     {file = "typing_extensions-4.15.0.tar.gz", hash = "sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"},
+]
+
+[[package]]
+name = "tzdata"
+version = "2025.2"
+description = "Provider of IANA time zone data"
+optional = false
+python-versions = ">=2"
+groups = ["main"]
+markers = "platform_system == \"Windows\""
+files = [
+    {file = "tzdata-2025.2-py2.py3-none-any.whl", hash = "sha256:1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8"},
+    {file = "tzdata-2025.2.tar.gz", hash = "sha256:b60a638fcc0daffadf82fe0f57e53d06bdec2f36c4df66280ae79bce6bd6f2b9"},
 ]
 
 [metadata]
