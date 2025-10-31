@@ -8,9 +8,9 @@ def main():
             b = input()
             if b == "n":
                 break
-    print(f"sort is : {()}")
+    print(f"sort is : {sort(number)}")
     
-def sort():
+def sort(list):
     ...
     
 main()
