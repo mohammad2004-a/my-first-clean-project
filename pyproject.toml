@@ -15,6 +15,7 @@ isort = "*"
 black = "*"
 flake8 = "*"
 autoflake = "*"
+pre-commit = "^4.3.0"
 
 [build-system]
 requires = ["poetry-core"]
