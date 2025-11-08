@@ -17,7 +17,6 @@ class Book:
 
     def return_book(self):
         self.available = True
-        print(f"{self.title } returned")
 
     def __mark_borrowed(self):
         self.available = False
@@ -51,40 +50,70 @@ class Member:
     def __init__(self, name):
         self.name = name
         self.borrowed_books = []
+        self.__total_borrowed_book = 0
 
     def borrow_book(self, book):
-        if len(self.borrowed_books) < 3:
-            book.borrow()
-            self.__add_to_list(book)
+        if book.available == True:
+            if self.__total_borrowed_book < 5:
+                book.borrow()
+                self.__add_to_list(book)
+                self.__total_borrowed_book += 1
+            else:
+                print("zarfiyat mojaz nist")
         else:
-            print("ejaze daryaft ketab nadarid")
+            print("ketab dar dastres nist")
 
     def return_book(self, book):
         if book in self.borrowed_books:
             book.return_book()
+            self.borrowed_books.remove(book)
+            self.__total_borrowed_book -= 1
+            print(f"{book.title} returned")
 
     def __add_to_list(self, book):
         self.borrowed_books.append(book)
 
     def __str__(self):
         result = "member : " + self.name + "\nborrowed book : \n"
-        i = 0
-        while i < len(self.borrowed_books):
-            result += " - " + self.borrowed_books[i].title + "\n"
-            i += 1
+        for book in self.borrowed_books:
+            result += " - " + book.title + "\n"
         return result
+
+    @property
+    def total_borrowed_book(self):
+        return self.__total_borrowed_book
+
+    @total_borrowed_book.setter
+    def total_borrowed_book(self, value):
+        self.__total_borrowed_book = value
 
 
 class PremiumMember(Member):
+
+    def __init__(self, name):
+        super().__init__(name)
+        self.__total_borrowed_book = 0
+
     def borrow_book(self, book):
-        if len(self.borrowed_books) < 5:
-            book.borrow()
-            self.__add_to_list(book)
+        if book.available == True:
+            if self.__total_borrowed_book < 5:
+                book.borrow()
+                self.__add_to_list(book)
+                self.__total_borrowed_book += 1
+            else:
+                print("zarfiyat mojaz nist")
         else:
-            print("zarfiyat mojaz nist")
+            print("ketab dar dastres nist")
 
     def __add_to_list(self, book):
         self.borrowed_books.append(book)
+
+    def return_book(self, book):
+        if book in self.borrowed_books:
+            book.return_book()
+            self.borrowed_books.remove(book)
+            self.__total_borrowed_book -= 1
+            print(f"{book.name} returned")
 
 
 book1 = Book("reyazi", "kharazmi")
@@ -109,3 +138,4 @@ print(f"{m1} \n {m2} \n {vm3} \n {vm4}")
 
 m1.return_book(book2)
 vm4.borrow_book(book2)
+print(m1)
