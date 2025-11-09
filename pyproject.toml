@@ -10,6 +10,7 @@ package-mode = false
 python = "^3.10"
 persiantools = "*"
 cryptocode = "^0.1"
+pytest = "^9.0.0"
 
 [tool.poetry.group.dev.dependencies]
 isort = "*"
