@@ -1,0 +1,74 @@
+2025-11-13 21:35:39,411 - root - DEBUG - The string python101 was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the isbn book is valid
+2025-11-13 21:35:39,412 - root - DEBUG - add the python101 book
+2025-11-13 21:35:39,412 - root - DEBUG - The string fizik was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the isbn book is valid
+2025-11-13 21:35:39,412 - root - DEBUG - add the fizik book
+2025-11-13 21:35:39,412 - root - DEBUG - The string ryazi was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the isbn book is valid
+2025-11-13 21:35:39,412 - root - DEBUG - add the ryazi book
+2025-11-13 21:35:39,412 - root - DEBUG - The string arabi was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the isbn book is valid
+2025-11-13 21:35:39,412 - root - DEBUG - add the arabi book
+2025-11-13 21:35:39,412 - root - DEBUG - The string shimi was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the isbn book is valid
+2025-11-13 21:35:39,412 - root - DEBUG - add the shimi book
+2025-11-13 21:35:39,412 - root - DEBUG - The string hendese was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the isbn book is valid
+2025-11-13 21:35:39,412 - root - DEBUG - add the hendese book
+2025-11-13 21:35:39,412 - root - DEBUG - The string ali was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the member id is valid
+2025-11-13 21:35:39,412 - root - DEBUG - user ali added
+2025-11-13 21:35:39,412 - root - DEBUG - The string reza was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the member id is valid
+2025-11-13 21:35:39,412 - root - DEBUG - user reza added
+2025-11-13 21:35:39,412 - root - DEBUG - The string javad was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the member id is valid
+2025-11-13 21:35:39,412 - root - DEBUG - user javad added
+2025-11-13 21:35:39,412 - root - DEBUG - The string mamad was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the member id is valid
+2025-11-13 21:35:39,412 - root - DEBUG - user mamad added
+2025-11-13 21:35:39,412 - root - DEBUG - The string asghar was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the member id is valid
+2025-11-13 21:35:39,412 - root - DEBUG - user asghar added
+2025-11-13 21:35:39,412 - root - DEBUG - The string nima was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the member id is valid
+2025-11-13 21:35:39,412 - root - DEBUG - user nima added
+2025-11-13 21:35:39,412 - root - DEBUG - The string baran was valid.
+2025-11-13 21:35:39,412 - root - DEBUG - the member id is valid
+2025-11-13 21:35:39,412 - root - DEBUG - user baran added
+2025-11-13 21:35:39,412 - root - INFO - Library l created
+2025-11-13 21:35:39,412 - root - DEBUG - python101 books donated to the library
+2025-11-13 21:35:39,412 - root - DEBUG - fizik books donated to the library
+2025-11-13 21:35:39,412 - root - DEBUG - ryazi books donated to the library
+2025-11-13 21:35:39,412 - root - DEBUG - arabi books donated to the library
+2025-11-13 21:35:39,412 - root - DEBUG - shimi books donated to the library
+2025-11-13 21:35:39,412 - root - DEBUG - hendese books donated to the library
+2025-11-13 21:35:39,412 - root - DEBUG - User ali registered.
+2025-11-13 21:35:39,412 - root - DEBUG - User reza registered.
+2025-11-13 21:35:39,412 - root - DEBUG - User by id number 1111 wants to borrow book number 4355.
+2025-11-13 21:35:39,412 - root - DEBUG - The book number 4355 is available in the library.
+2025-11-13 21:35:39,412 - root - DEBUG - User has registered with number 1111
+2025-11-13 21:35:39,412 - root - DEBUG - the python101 is available
+2025-11-13 21:35:39,412 - root - DEBUG - the python101 book borrowed
+2025-11-13 21:35:39,412 - root - DEBUG - python101 book added to user ali's list
+2025-11-13 21:35:39,412 - root - DEBUG - ali borrowed the python101
+2025-11-13 21:35:39,412 - root - DEBUG - Number of books borrowed by ali : 1
+2025-11-13 21:35:39,412 - root - DEBUG - User by id number 1112 wants to borrow book number 4355.
+2025-11-13 21:35:39,412 - root - DEBUG - The book number 4355 is available in the library.
+2025-11-13 21:35:39,412 - root - DEBUG - User has registered with number 1112
+2025-11-13 21:35:39,412 - root - WARNING - The book python101 that user reza wanted had been loaned to someone else.
+2025-11-13 21:35:39,412 - root - DEBUG - Member with ID 1111 wants to return book 4355.
+2025-11-13 21:35:39,412 - root - DEBUG - The book is available under number 4355.
+2025-11-13 21:35:39,412 - root - DEBUG - User has registered with number 1111
+2025-11-13 21:35:39,412 - root - DEBUG - the python101 book returned
+2025-11-13 21:35:39,412 - root - DEBUG - ali returned the python101 book
+2025-11-13 21:35:39,413 - root - DEBUG - Number of books borrowed by ali : 0
+2025-11-13 21:35:39,413 - root - DEBUG - User by id number 1111 wants to borrow book number 4355.
+2025-11-13 21:35:39,413 - root - DEBUG - The book number 4355 is available in the library.
+2025-11-13 21:35:39,413 - root - DEBUG - User has registered with number 1111
+2025-11-13 21:35:39,413 - root - DEBUG - the python101 is available
+2025-11-13 21:35:39,413 - root - DEBUG - the python101 book borrowed
+2025-11-13 21:35:39,413 - root - DEBUG - python101 book added to user ali's list
+2025-11-13 21:35:39,413 - root - DEBUG - ali borrowed the python101
+2025-11-13 21:35:39,413 - root - DEBUG - Number of books borrowed by ali : 1

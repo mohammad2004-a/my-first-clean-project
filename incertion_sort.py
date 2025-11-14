@@ -53,4 +53,4 @@ def insertion_sort(unsorted):
 # assert insertion_sort([]) == []
 # assert insertion_sort(["salam" , 32 , 74 , 12 , "KHODAHAFEZ"])==({12,32,74])
 
-print(insertion_sort([9, 8, 4, "salam", 2, 3, 1]))
+print(insertion_sort([[9, 8, 4, "salam", 2, 3, 1]]))

@@ -57,3 +57,36 @@
 2025-11-11 08:02:00,920 - root - DEBUG - The function is sorting the list.
 2025-11-11 08:02:00,920 - root - DEBUG - the list is sorted
 2025-11-11 08:02:00,920 - root - INFO - the insertion sort method ended
+2025-11-12 01:24:55,590 - root - INFO - start the insertion sort method 
+2025-11-12 01:24:55,590 - root - DEBUG - The function received a list.
+2025-11-12 01:24:55,591 - root - DEBUG - List filter started
+2025-11-12 01:24:55,591 - root - ERROR - You cannot enter a string.
+2025-11-12 01:24:55,591 - root - DEBUG - list filter ended
+2025-11-12 01:24:55,591 - root - WARNING - The program cannot sort these values: ['salam']
+2025-11-12 01:24:55,591 - root - DEBUG - The function is sorting the list.
+2025-11-12 01:24:55,591 - root - DEBUG - the list is sorted
+2025-11-12 01:24:55,591 - root - INFO - the insertion sort method ended
+2025-11-12 01:28:38,384 - root - INFO - start the insertion sort method 
+2025-11-12 01:28:38,384 - root - DEBUG - The function received a list.
+2025-11-12 01:28:38,385 - root - DEBUG - List filter started
+2025-11-12 01:28:38,385 - root - ERROR - The entered value is not valid.
+2025-11-12 01:28:38,385 - root - DEBUG - list filter ended
+2025-11-12 01:28:38,385 - root - WARNING - The program cannot sort these values: [[9, 8, 4, 'salam', 2, 3, 1]]
+2025-11-12 01:28:38,385 - root - WARNING - None of the values ​​in the list were numbers.
+2025-11-12 01:28:38,385 - root - INFO - the insertion sort method ended
+2025-11-12 01:28:43,735 - root - INFO - start the insertion sort method 
+2025-11-12 01:28:43,735 - root - DEBUG - The function received a list.
+2025-11-12 01:28:43,735 - root - DEBUG - List filter started
+2025-11-12 01:28:43,735 - root - ERROR - The entered value is not valid.
+2025-11-12 01:28:43,736 - root - DEBUG - list filter ended
+2025-11-12 01:28:43,736 - root - WARNING - The program cannot sort these values: [[9, 8, 4, 'salam', 2, 3, 1]]
+2025-11-12 01:28:43,736 - root - WARNING - None of the values ​​in the list were numbers.
+2025-11-12 01:28:43,736 - root - INFO - the insertion sort method ended
+2025-11-12 01:29:02,144 - root - INFO - start the insertion sort method 
+2025-11-12 01:29:02,144 - root - DEBUG - The function received a list.
+2025-11-12 01:29:02,144 - root - DEBUG - List filter started
+2025-11-12 01:29:02,144 - root - ERROR - The entered value is not valid.
+2025-11-12 01:29:02,144 - root - DEBUG - list filter ended
+2025-11-12 01:29:02,144 - root - WARNING - The program cannot sort these values: [[9, 8, 4, 'salam', 2, 3, 1]]
+2025-11-12 01:29:02,144 - root - WARNING - None of the values ​​in the list were numbers.
+2025-11-12 01:29:02,145 - root - INFO - the insertion sort method ended
