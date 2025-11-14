@@ -62,13 +62,11 @@ class Book:
 
     def __str__(self):
         if self.available:
-            status = "موجود"
+            status = "available"
         else:
-            status = "امانت داده شده"
+            status = "borrowed"
 
-        return (
-            "کتاب: " + self.title + " | نویسنده: " + self.author + " | وضعیت: " + status
-        )
+        return "book :" + self.title + " | author: " + self.author + " | : " + status
 
     @property
     def isbn(self):
