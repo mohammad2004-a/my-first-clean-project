@@ -12,6 +12,7 @@ persiantools = "*"
 cryptocode = "^0.1"
 pytest = "^9.0.0"
 pytest-cov = "^7.0.0"
+psycopg2 = "^2.9.11"
 
 [tool.poetry.group.dev.dependencies]
 isort = "*"

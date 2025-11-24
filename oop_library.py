@@ -231,12 +231,23 @@ class NonExistence(Exception):
 
 
 class Library:
+    def info_functin(x):
+        def wrapper(*args, **kwargs):
+            logging.info(f"the {x.__name__} started")
+            result = x(*args, **kwargs)
+            logging.info(f"the {x.__name__} ended")
+            return result
+
+        return wrapper
+
+    @info_functin
     def __init__(self, name):
         logging.info(f"Library {name} created")
         self.name = name
         self.books = []
         self.members = []
 
+    @info_functin
     def add_book(self, book=None):
         if book in Book.World_book_list:
             if book not in self.books:
@@ -252,6 +263,7 @@ class Library:
                 f"The library did not accept the {book} book due to its non-existence."
             )
 
+    @info_functin
     def register_member(self, member=None):
         if member in Member.world_member_list:
             if member not in self.members:
@@ -264,6 +276,7 @@ class Library:
             logging.warning(f"User {member} not found")
             print(f"user {member} not found")
 
+    @info_functin
     def borrow_book(self, isbn, member_id):
         logging.debug(
             f"User by id number {member_id} wants to borrow book number {isbn}."
@@ -296,6 +309,7 @@ class Library:
         if not target_book:
             logging.warning("The book is not available in the library list.")
 
+    @info_functin
     def return_book(self, isbn, member_id):
         logging.debug(f"Member with ID {member_id} wants to return book {isbn}.")
 
@@ -327,6 +341,7 @@ class Library:
         if not target_book:
             logging.warning(f"The book {isbn} is not available in the library list.")
 
+    @info_functin
     def list_available_books_show(self):
         result = "the book available : \n"
         for book in self.books:
@@ -359,7 +374,6 @@ library.add_book(book5)
 library.add_book(book6)
 
 library.register_member(member1)
-library.register_member(member2)
 
 library.borrow_book(isbn=4355, member_id=1111)
 library.borrow_book(isbn=4355, member_id=1112)
